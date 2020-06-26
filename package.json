@@ -1,0 +1,17 @@
+{
+  "name": "@micro-frontend/content",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Micro frontend content service",
+  "repository": "git@github.com:iteration-0/micro-frontend-content-react.git",
+  "author": "Wayde Sun",
+  "license": "MIT",
+  "homepage": "https://mfe.main.sunwei.xyz",
+  "scripts": {
+    "build": "node index.js",
+    "start": "serve -l 4999 --cors resource"
+  },
+  "devDependencies": {
+    "serve": "^11.3.1"
+  }
+}
